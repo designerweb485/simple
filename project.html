@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+
+
+
+    <title></title>
+
+
+    <link rel="stylesheet" href="project.css">
+    <script src="project.js"></script>
+</head>
+
+<body>
+   <form action="">
+    <div class="regform">
+        <h1>Registration Form</h1>
+    </div>
+    <div>
+        <div class="name">
+            <table>
+                <tr>
+
+                    <td>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    </td>&nbsp;
+                    <td><input type="text" name="Fisrtname" title="First Name" placeholder="First Name" required>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td>Last Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td><input type="text" name="Lastname" title="Lastname" placeholder="Last Name" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <br><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    </td>&nbsp;
+                    <td>
+                        <br><br>
+                        <input type="text" name="phone" id="text1" title="Phone no" placeholder="Cellphone" onblur="validate();"><span id="ilbtext"></span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td>
+                        <br><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    </td>&nbsp;
+                    <td>
+                        <br><br>
+                        <input type="mail" name="email" id="text2"title="Email" placeholder="ex: myname@example.com" required onblur="validate1();">
+                        <span id="ilbtext1"></span>
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td>
+                        <br><br>
+                        <input type="Address" name="adress" title="Address" placeholder="Address" required>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td>
+                        <br><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; City &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    </td>&nbsp;
+                    <td>
+                        <br><br>
+                        <input type="Text" name="City" title="City"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <br><br>
+                        <div class="order">
+                            <h2> &nbsp;&nbsp; &nbsp;Type of Order</h2>
+                    </td>
+                </tr>
+        </div>
+        <tr>
+            <td> &nbsp;&nbsp; &nbsp;<input type="radio" name="radio1">Pickup<br></td>
+        </tr>
+        <tr>
+            <td> &nbsp;&nbsp; &nbsp;<input type="radio" name="radio1">Delivery<br></td>
+        </tr>
+        <tr>
+            <td> &nbsp;&nbsp; &nbsp;<input type="radio" name="radio1">Catering<br>
+            </td>
+        </tr>
+        <tr>
+            <td><br>&nbsp;&nbsp; &nbsp;Date</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp; &nbsp;<input type="date" name="date"></td>
+        </tr>
+        <tr>
+            <td><br>&nbsp;&nbsp; &nbsp;Time</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp; &nbsp;<input type="Time" name="date"></td>
+        </tr>
+        <tr>
+            <td><br>&nbsp;&nbsp; &nbsp;Quantity you want to purchase</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp; &nbsp;<input type="number" name="Quantity" min="1" max="50"></td>
+        </tr>
+        <tr>
+            <td><br>&nbsp;&nbsp; &nbsp;Price of One Quantity</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp; &nbsp;<input name="price" type="text" value="100.00" readonly></td>
+        </tr>
+
+
+        </table>
+        <button type="submit"  onclick=""> order</button>
+
+
+    </div>
+    </div>
+    </form>
+</body>
+
+</html>
